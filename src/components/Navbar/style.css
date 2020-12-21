@@ -1,0 +1,40 @@
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    list-style:none;
+}
+
+.navbar ul li{
+    text-decoration: none;
+}
+
+.search form{
+    display:flex;
+    margin: 28px;
+}
+
+.searchinput{
+    border: 0;
+    width: 0;
+    transition:width 0.1s ease-in;
+}
+
+
+searchInput.active{
+    width: 150px;
+}
+
+.searchInput.focus{
+    outline:none;
+}

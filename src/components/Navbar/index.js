@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {NavLink} from 'react-router-dom';
 import './style.css';
 /**
  * @author
@@ -26,9 +27,9 @@ import './style.css';
     return(
         <div className="navbar">
             <ul className="navbarMenu">
-                <li><a href="#">Passions and Interests</a></li>
-                <li><a href="#">Programming Portfolio</a></li>
-                <li><a href="#">Contact Information</a></li>
+                <li><NavLink to="/">AboutMe</NavLink></li>
+                <li><NavLink to="/programmingportfolio">Programming Portfolio</NavLink></li>
+                <li><NavLink to="Blog">Blog</NavLink></li>
             </ul>
             <div className="search">
                 <form onSubmit={submitSearch}>

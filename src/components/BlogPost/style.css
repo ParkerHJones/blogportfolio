@@ -1,0 +1,21 @@
+.blogPostContainer{
+    width: 70%;
+}
+
+.blogCategory{
+    display: block;
+    font-size: 14px;
+    margin: 10px 0; 
+}
+
+.postedOn{
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px 0;
+    display: block;
+}
+
+.postImageContainer{
+    width: 100%;
+}
+

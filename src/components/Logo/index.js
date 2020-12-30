@@ -12,9 +12,9 @@ import './style.css';
          <div className= "logo">
              <a href="#">Parker Jones</a>  
              <br ></br>
-             <a href="#">760-981-3830</a>
+             <h4>Developer, Tennis Player, Yogi, and TikTok Enthusiast</h4>
              <br ></br>
-             <a href="#">parker.harold.jones@gmail.com</a>
+             <h2> 💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖</h2>
          </div>
      )
  }

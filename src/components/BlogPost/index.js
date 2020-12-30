@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import Card from '../UI/Card';
+import Image from '../../blogimages/Snowflake.jpg';
 
 /**
  * @author
@@ -19,7 +20,7 @@ import Card from '../UI/Card';
          </div>
 
          <div className ="postImageContainer">
-             <img src={require('../../blogimages/Snowflake.jpg')} alt="Post Image"/>
+             <img src={Image} width="400" height="400" alt=""/>
          </div>
 
 

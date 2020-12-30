@@ -11,10 +11,7 @@ import'./style.css';
      return(
          <header className="header">
              <nav className="headerMenu">
-                <a href="#">Home</a>
-                <a href="#">About Me</a>
-                <a href="#">Programming Portfolio</a>
-                <a href="#">Blog</a>
+                <p> "Guard your heart for everything you do flows from it."</p>
                  </nav>
          </header>
      )

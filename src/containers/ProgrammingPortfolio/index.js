@@ -9,7 +9,10 @@ import './style.css';
 
  const programming_portfolio = (props) => {
      return(
-         <div>Programming Portfolio</div>
+         <div>Programming Portfolio
+             <br></br>
+             Here are some projects of mine
+         </div>
      )
  }
 

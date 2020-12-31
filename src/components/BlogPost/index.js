@@ -10,6 +10,8 @@ import Image from '../../blogimages/Snowflake.jpg';
 
 
  const BlogPost = (props) => {
+
+
      return(
          <div className="BlogPostsContainer">
          <Card>
@@ -22,6 +24,14 @@ import Image from '../../blogimages/Snowflake.jpg';
          <div className ="postImageContainer">
              <img src={Image} width="400" height="400" alt=""/>
          </div>
+
+        <div className="postContent">
+            <h3> My Passions </h3>
+            <p> My passions are not too many. I really enjoy health and fitness, learning new things, and doing yoga.  </p>
+            <p> I enjoy learning and studying spanish, going out with friends and learning how to develop. </p>
+            <p> Teaching tennis to all ages and ranges of people is something I enjoy fully as well. </p>
+            <p> In my spare time I like to make TikToks </p>
+        </div> 
 
 
          </Card>

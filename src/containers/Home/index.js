@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Header from '../../components/Header';
-// import Sidebar from '../components/Sidebar';
+
 
 /**
  * @author
@@ -28,6 +28,7 @@ const Home = props => {
 
 
         </div>
+
     );
 
     

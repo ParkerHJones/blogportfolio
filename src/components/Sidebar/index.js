@@ -20,8 +20,12 @@ import Card from '../UI/Card';
         <h4> Social Media: @parksibebe </h4>
         </div>
     </Card>
+
+    
+
     </div>
 
+    
      )
  }
 
